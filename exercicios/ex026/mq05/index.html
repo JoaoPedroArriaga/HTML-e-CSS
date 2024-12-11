@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Promoções</a></li>
+                <li><a href="#">Suporte</a></li>
+                <li><a href="#">Quem Somos</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas quam libero optio qui excepturi, tempora fugit dolores ea numquam, similique deserunt facilis quisquam? Hic perspiciatis quas saepe quasi laborum veniam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem consequatur minus vitae adipisci maiores distinctio, asperiores harum iusto temporibus impedit velit facilis sequi nam commodi illo cupiditate, veniam perferendis! Facilis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo inventore perspiciatis, eos cupiditate voluptatum vero nesciunt saepe quidem, ipsum magnam quibusdam incidunt numquam quod, tenetur animi! Laudantium quibusdam veniam fugiat!</p>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas quam libero optio qui excepturi, tempora fugit dolores ea numquam, similique deserunt facilis quisquam? Hic perspiciatis quas saepe quasi laborum veniam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem consequatur minus vitae adipisci maiores distinctio, asperiores harum iusto temporibus impedit velit facilis sequi nam commodi illo cupiditate, veniam perferendis! Facilis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo inventore perspiciatis, eos cupiditate voluptatum vero nesciunt saepe quidem, ipsum magnam quibusdam incidunt numquam quod, tenetur animi! Laudantium quibusdam veniam fugiat!</p>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas quam libero optio qui excepturi, tempora fugit dolores ea numquam, similique deserunt facilis quisquam? Hic perspiciatis quas saepe quasi laborum veniam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem consequatur minus vitae adipisci maiores distinctio, asperiores harum iusto temporibus impedit velit facilis sequi nam commodi illo cupiditate, veniam perferendis! Facilis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo inventore perspiciatis, eos cupiditate voluptatum vero nesciunt saepe quidem, ipsum magnam quibusdam incidunt numquam quod, tenetur animi! Laudantium quibusdam veniam fugiat!</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if(itens.style.display == 'block'){
+                itens.style.display = 'none';
+            } else{
+                itens.style.display='block';
+            }
+        }
+    </script>
+</body>
+</html>
